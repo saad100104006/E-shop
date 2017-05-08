@@ -11,7 +11,7 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
-    <com.example.zero.ddmo.SliderLayout
+    <com.example.saad.eshop.SliderLayout
         android:id="@+id/slider"
         android:layout_width="match_parent"
         custom:pager_animation_span="1100"
