@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#ddba76</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#F50056</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="bkg_card">#8C9EFF</color>
+
+    <color name="colorWhite1">#F7F7F7</color>
+    <color name="colorblack">#000000</color>
+    <color name="color_texmenutop">#989898</color>
+</resources>
