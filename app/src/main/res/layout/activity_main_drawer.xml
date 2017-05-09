@@ -79,10 +79,8 @@
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
                         android:paddingLeft="5dp"
-
                         android:paddingBottom="10dp"
                         android:textSize="20dp"
-
                         android:text="Filters"
                         android:textColor="@color/colortext"/>
 
@@ -118,9 +116,6 @@
                     android:id="@+id/scrolbar1"
                     android:layout_below="@+id/mainlayout1"
                     android:scrollbars="none">
-
-
-
 
 
                     <LinearLayout
@@ -433,7 +428,7 @@
                                 android:layout_marginBottom="10dp"
                                 >
 
-                                <com.example.zero.drawer.RangeBar
+                                <com.example.saad.eshop.RangeBar
                                     xmlns:custom="http://schemas.android.com/apk/res-auto"
                                     android:id="@+id/rangebar1"
                                     android:layout_width="match_parent"
@@ -683,10 +678,6 @@
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
-
-
-
-
 
 
 </android.support.v4.widget.DrawerLayout>

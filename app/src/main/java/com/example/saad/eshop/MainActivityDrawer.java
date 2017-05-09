@@ -231,11 +231,6 @@ public class MainActivityDrawer extends AppCompatActivity implements FragmentDra
         });
 
 
-
-
-
-
-
         rangebar = (RangeBar) findViewById(R.id.rangebar1);
 
 
@@ -304,13 +299,6 @@ public class MainActivityDrawer extends AppCompatActivity implements FragmentDra
 
             }
         });
-
-
-
-
-
-
-
 
         right_drawer = (LinearLayout) findViewById(R.id.right_drawer);
 
@@ -419,13 +407,6 @@ public class MainActivityDrawer extends AppCompatActivity implements FragmentDra
             sizex8.setBackgroundResource(R.drawable.sizebutton_selector1);
 
         }
-
-
-
-
-
-
-
         Toast.makeText(getBaseContext(), "You have selected Size : " + s,
                 Toast.LENGTH_SHORT).show();
 

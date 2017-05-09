@@ -15,157 +15,141 @@
             android:id="@+id/title"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
             android:paddingLeft="30dp"
             android:paddingTop="30dp"
-            android:paddingBottom="10dp"
-            android:textSize="16dp"
-
             android:text="You looking for?"
-            android:textColor="@color/colortext"/>
+
+            android:textColor="@color/colortext"
+            android:textSize="16dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@id/title">
+            android:layout_below="@id/title"
+            android:orientation="horizontal">
 
             <Button
-                android:layout_weight="1"
                 android:id="@+id/btnman"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginBottom="5dp"
                 android:layout_marginTop="15dp"
-                android:text="MAN"
-
-
-                android:textSize="14sp"
+                android:layout_weight="1"
                 android:background="@drawable/menubutton"
-                android:textColor="@color/colortext"/>
+
+
+                android:text="MAN"
+                android:textColor="@color/colortext"
+                android:textSize="14sp" />
 
 
             <Button
-                android:layout_weight="1"
-
                 android:id="@+id/btnwoman"
+
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
                 android:layout_marginTop="15dp"
-                android:text="WOMAN"
-
-
-                android:textSize="14sp"
+                android:layout_weight="1"
                 android:background="@drawable/menubutton"
-                android:textColor="@color/colortext"/>
+
+
+                android:text="WOMAN"
+                android:textColor="@color/colortext"
+                android:textSize="14sp" />
 
         </LinearLayout>
 
     </RelativeLayout>
 
 
-
-
-
-
     <ExpandableListView
         android:id="@+id/lvExp"
-        android:layout_below="@+id/nav_header_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:groupIndicator="@android:color/transparent"
-         android:divider="#00000000"
+        android:layout_below="@+id/nav_header_container"
         android:childDivider="#00000000"
-       />
-
+        android:divider="#00000000"
+        android:groupIndicator="@android:color/transparent" />
 
 
     <View
-        android:layout_below="@id/lvExp"
         android:id="@+id/view1"
-        android:layout_marginRight="15dp"
-        android:layout_marginLeft="15dp"
-       android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_below="@id/lvExp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
         android:background="#cccccc" />
 
 
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-
-        android:padding="16dp"
-        android:layout_below="@id/view1"
         android:id="@+id/accountl"
-        android:gravity="center"
-        >
-
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/ic_account"
-    android:layout_gravity="center"
-    />
-
-
-    <TextView
-
-        android:id="@+id/account"
-        android:textSize="12dp"
-        android:layout_gravity="center"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:textColor="@color/color_menufont"
-
-
-        android:text="ACCOUNT"
-         />
-
-    </LinearLayout>
-
-
-
-    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
+        android:layout_below="@id/view1"
+        android:gravity="center"
         android:orientation="horizontal"
-        android:padding="16dp"
-        android:layout_below="@id/accountl"
-        android:id="@+id/settingl">
+        android:padding="16dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/setting"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:src="@drawable/ic_account" />
+
+
+        <TextView
+
+            android:id="@+id/account"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="16dp"
+            android:text="ACCOUNT"
+            android:textColor="@color/color_menufont"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/settingl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accountl"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/setting" />
 
 
         <TextView
 
             android:id="@+id/setting"
-            android:textSize="12dp"
-            android:layout_gravity="center"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:paddingLeft="16dp"
+            android:text="SETTINGS"
             android:textColor="@color/color_menufont"
 
 
-            android:text="SETTINGS"
-            />
+            android:textSize="12dp" />
 
     </LinearLayout>
-
-
 
 
 </RelativeLayout>
