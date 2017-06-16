@@ -2,192 +2,31 @@
 <items version="2" >
 
     <item
-        jar="/Users/md.tanvirsaad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1-08721569df773ddc35fc078f3f63843311ba29fa.jar" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-839c4598f47839d0122b731c7e221dd93e61161d.jar" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-ab816c98348fee5f3282411c775154fff8844429.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="/Users/md.tanvirsaad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jar="/Users/md.tanvirsaad/.android/build-cache/7aec604217a8b378d56fc48c988754ad1148558b/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_08721569df773ddc35fc078f3f63843311ba29fa/classes.dex" />
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2f83b070535e6c871313376bde6f55a26778e53c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/eefa248e2f127295a2b8c33c4d8c711d71ae91a8/output/jars/classes.jar"
+        jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf790d594af471303ceff8ecebd5e622efa8d27c/classes.dex" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-c54c41dbd2e7e55b31887f8409537297764fa25e.jar" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-abab62efd224e9b24759734761c6accc7e85362c.jar" />
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4ffcf8b1fd6365a5f73b656ead879e197f9c4b5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/6dae797a00391c71fa2993d8c77b622363e036af/output/jars/classes.jar"
+        jar="/Users/md.tanvirsaad/.android/build-cache/6e644d233324dc1420eda99eafdd332fd276cf79/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bb3fa0fa658d3e86ec21284b193fadbfe5a7474e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/070665534cd86f473555b2675382b9810de01e48/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aff6972f1f24428f98156adafc1e95da437c1ce8/classes.dex" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/picasso-2.3.2-d9b52b6f86fe2875200846eba35cb1a291930b06.jar" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-4aa642edeb48956668e16149efb27b7a304180dd.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/8055ff06e2d33e10b82b79fd90009febfaeacf9f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_21d5af1ce55a082c7682026d384b4738422cf4d6/classes.dex" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/library-2.4.0-5696c5d1e83a4ace24393289bf05d365387a3842.jar" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-f9cd08ebee18acfc3f029f7e3508975a4bb06c8c.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/b136a2e4b265d1afbf9d92ee8e992e73e1963da9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5b7075f7d600f0cd7a3afa629965fc880fdde7a2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/E-shop/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="120769601ab6bfdc5b541756a74d395a014d5801">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f0d131355cd408db865d6945d9bd2777234ade8e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/611a44af1f3d0175249529ba23273088a101830d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93a19aa30a2e35b043389df7fd77520102d9c940/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_5696c5d1e83a4ace24393289bf05d365387a3842/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_d9b52b6f86fe2875200846eba35cb1a291930b06/classes.dex" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-101c1eeea9ed0b990cd0fc2adbad83c214f96791.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/12b2828e704e5b9119acb512b31375da18ff94fa/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02805df05a10f92703d15dd40b819eccfc7eecc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/ff21e08a7c6d7522ffb3162222c3e73ece8f8a0b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f4cc11641f8fc90d272a0315bade6d72948b018e/classes.dex" />
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1a87f4c4b6b2b65332c4186e36aa06354f4e315/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -199,46 +38,76 @@
         <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_44ccf9d29675906eb4055dad974443da198883d7/classes.dex" />
     </item>
     <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-8f1e6771d7037fabcbab65ba438e5b82f5c74a2b.jar" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-8cf19d4e81c6590d150488be113cc6109da91776.jar" />
-    </item>
-    <item
-        jar="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/exploded-aar/com.daimajia.slider/library/1.1.5/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
-        <dex dex="/Users/md.tanvirsaad/Downloads/Ecommerce UI KIT/DDMo/app/build/intermediates/pre-dexed/debug/classes-ca9f5cfaa8ee6e2d39d026e86cadd316a2c767ab.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/5a7e8cb58883a0e23c61b28d1414b5499954ddee/output/jars/classes.jar"
+        jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4d20975e0b40798470bf53247008574fc42eaed3/classes.dex" />
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_bd180dbb28e78e3ef13a4e306b1fc8530d4ba8dc/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/91c9fef2eaccbb63bde0d34d77613e7c21f58d55/output/jars/classes.jar"
+        jar="/Users/md.tanvirsaad/.android/build-cache/4cda4e0d0161c2c11351fe5339da0c8b7a2d81bf/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4889facdb48d56753cc45ec0816e0e339975ea10/classes.dex" />
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e87dad667d7914df2fd2820f70676942201bb42a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/.android/build-cache/c915505e583715c70aef0b5dd5c791339bf0d0dc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f37dad284fa77fdab3170e4bcca9bd569a08f4d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/.android/build-cache/7a81444ebaeaec9cce2ae712442a4742daa2c9e9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f8819bc2f8d9617c7295b516b50af2373872380/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/E-shop/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eadc9f908a716581cf9dba0d44745759d8aa917d">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f0d131355cd408db865d6945d9bd2777234ade8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_fd9ac6a7a2c0a21efb7a2edf7cb33d6af7473009/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_957d5dfd0c6778f7baec4d04e02b0cef2246af77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/.android/build-cache/f822216ca5495d8a4f8be741cb4f40af12bd95c8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f35e7185506755ce8ff9c4411c98b400d2cc497/classes.dex" />
     </item>
 
 </items>

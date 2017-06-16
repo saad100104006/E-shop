@@ -1,5 +1,6 @@
 package com.example.saad.eshop;
 
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -71,9 +72,9 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.ViewHo
                 @Override
                 public void onClick(View v) {
 
-                 /*   Intent intent = new Intent(v.getContext(), SecondPage.class);
+                    Intent intent = new Intent(v.getContext(), GridVIew.class);
                     v.getContext().startActivity(intent);
-                    Toast.makeText(v.getContext(), "os version is: " + feed.getTitle(), Toast.LENGTH_SHORT).show();*/
+                    //Toast.makeText(v.getContext(), "os version is: " + feed.getTitle(), Toast.LENGTH_SHORT).show();
                 }
             });
 
