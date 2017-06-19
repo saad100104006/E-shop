@@ -5,20 +5,26 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.ViewTreeObserver;
+import android.widget.AbsListView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class DetailsActivity extends ActionBarActivity {
+public class DetailsActivity extends AppCompatActivity {
 
 
     TextView tv1,tv2,tv3,tv4;
 
 
     ImageView imagemain,imagev1,imagev2,imagev3,imagev4;
-
-    private Toolbar toolbar;
+    ScrollView scrollView;
+LinearLayout bottom;
+  //  private Toolbar toolbar;
 
 
 
@@ -32,10 +38,10 @@ public class DetailsActivity extends ActionBarActivity {
 
 
         nitView();
-        if (toolbar != null) {
+       /* if (toolbar != null) {
             toolbar.setTitle("");
             setSupportActionBar(toolbar);
-        }
+        }*/
 
 
 
@@ -43,6 +49,34 @@ public class DetailsActivity extends ActionBarActivity {
 
 
         imagemain =(ImageView)findViewById(R.id.imagemain);
+
+        scrollView=(ScrollView)findViewById(R.id.scrolbar1);
+
+        bottom=(LinearLayout)findViewById(R.id.bottom) ;
+
+
+
+        scrollView.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
+            @Override
+            public void onScrollChanged() {
+                int scrollY = scrollView.getScrollY(); // For ScrollView
+                int scrollX = scrollView.getScrollX(); // For HorizontalScrollView
+                // DO SOMETHING WITH THE SCROLL COORDINATES
+
+
+                if(scrollY>200)
+                {
+                    bottom.setVisibility(View.GONE);
+
+                }
+                if(scrollY<10)
+                {
+                    bottom.setVisibility(View.VISIBLE);
+
+                }
+
+            }
+        });
 
         imagemain.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -153,7 +187,7 @@ public class DetailsActivity extends ActionBarActivity {
 
     private void nitView() {
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+      //  toolbar = (Toolbar) findViewById(R.id.toolbar);
 
 
     }
@@ -205,5 +239,31 @@ public class DetailsActivity extends ActionBarActivity {
         DialogActivity overlay = new DialogActivity();
         overlay.show(fm, "FragmentDialog");
     }
+
+    public abstract class OnScrollObserver implements AbsListView.OnScrollListener {
+
+        public abstract void onScrollUp();
+
+        public abstract void onScrollDown();
+
+        @Override
+        public void onScrollStateChanged(AbsListView view, int scrollState) {
+        }
+
+        int last = 0;
+        boolean control = true;
+
+        @Override
+        public void onScroll(AbsListView view, int current, int visibles, int total) {
+            if (current < last && !control) {
+                onScrollUp();
+                control = true;
+            } else if (current > last && control) {
+                onScrollDown();
+                control = false;
+            }
+
+            last = current;
+        }}
 
 }

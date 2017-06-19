@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/md.tanvirsaad/.android/build-cache/65dff2654db0df83d06aad46015768ac15ddd6e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4882ae79d1b017eb023db1890a8a4fd5c2862795">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9f67140e48a72df8de5d1c1a5bb6d53c6c761bce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -79,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f5b897468df5500732cb642d22281917be2dbc55">
+        sha1="87ca74f8a7eb23f97d67183844c342d7be3c093f">
         <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f0d131355cd408db865d6945d9bd2777234ade8e/classes.dex" />
     </item>
     <item
