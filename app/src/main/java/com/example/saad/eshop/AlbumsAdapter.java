@@ -1,6 +1,7 @@
 package com.example.saad.eshop;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -14,9 +15,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.bumptech.glide.Glide;
-
 import java.util.List;
 
 
@@ -70,26 +69,28 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
         holder.thumbnail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final Animation myAnim = AnimationUtils.loadAnimation(mContext, R.anim.bounce);
-
-
-                // Use bounce interpolator with amplitude 0.2 and frequency 20
-                MyBounceInterpolator interpolator = new MyBounceInterpolator(0.5, 10);
-                myAnim.setInterpolator(interpolator);
-
-                holder. favourite.startAnimation(myAnim);
-                holder. favourite.setBackgroundDrawable(mContext.getDrawable(R.drawable.favourite));
-
+                Intent intent=new Intent(mContext,DetailsActivity.class);
+                mContext. startActivity(intent);
 
             }
         });
 
-      /*  holder.overflow.setOnClickListener(new View.OnClickListener() {
+       holder.favourite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopupMenu(holder.overflow);
+                final Animation myAnim = AnimationUtils.loadAnimation(mContext, R.anim.bounce);
+
+                // Use bounce interpolator with amplitude 0.2 and frequency 20
+                MyBounceInterpolator interpolator = new MyBounceInterpolator(0.2, 20);
+                myAnim.setInterpolator(interpolator);
+
+
+
+                holder. favourite.startAnimation(myAnim);
+                holder. favourite.setBackgroundDrawable(mContext.getDrawable(R.drawable.favourite));
+
             }
-        });*/
+        });
     }
 
     /**

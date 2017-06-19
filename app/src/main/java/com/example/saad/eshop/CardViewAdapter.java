@@ -72,7 +72,7 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.ViewHo
                 @Override
                 public void onClick(View v) {
 
-                    Intent intent = new Intent(v.getContext(), GridVIew.class);
+                    Intent intent = new Intent(v.getContext(), GridVIewActivity.class);
                     v.getContext().startActivity(intent);
                     //Toast.makeText(v.getContext(), "os version is: " + feed.getTitle(), Toast.LENGTH_SHORT).show();
                 }

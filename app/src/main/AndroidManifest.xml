@@ -17,10 +17,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.saad.eshop.GridVIew"
+            android:name="com.example.saad.eshop.GridVIewActivity"
             android:label="@string/app_name" >
 
         </activity>
+        <activity
+            android:name="com.example.saad.eshop.DetailsActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+
+
     </application>
 
 </manifest>
