@@ -2,121 +2,103 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/7aec604217a8b378d56fc48c988754ad1148558b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2f83b070535e6c871313376bde6f55a26778e53c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/65dff2654db0df83d06aad46015768ac15ddd6e4/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4882ae79d1b017eb023db1890a8a4fd5c2862795">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9f67140e48a72df8de5d1c1a5bb6d53c6c761bce/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4ffcf8b1fd6365a5f73b656ead879e197f9c4b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/6e644d233324dc1420eda99eafdd332fd276cf79/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1a87f4c4b6b2b65332c4186e36aa06354f4e315/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/E-shop/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_44ccf9d29675906eb4055dad974443da198883d7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/libs/internal_impl-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_bd180dbb28e78e3ef13a4e306b1fc8530d4ba8dc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/4cda4e0d0161c2c11351fe5339da0c8b7a2d81bf/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e87dad667d7914df2fd2820f70676942201bb42a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/c915505e583715c70aef0b5dd5c791339bf0d0dc/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f37dad284fa77fdab3170e4bcca9bd569a08f4d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.android/build-cache/7a81444ebaeaec9cce2ae712442a4742daa2c9e9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f8819bc2f8d9617c7295b516b50af2373872380/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/E-shop/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="87ca74f8a7eb23f97d67183844c342d7be3c093f">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f0d131355cd408db865d6945d9bd2777234ade8e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_fd9ac6a7a2c0a21efb7a2edf7cb33d6af7473009/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/md.tanvirsaad/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_957d5dfd0c6778f7baec4d04e02b0cef2246af77/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/md.tanvirsaad/.android/build-cache/f822216ca5495d8a4f8be741cb4f40af12bd95c8/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f35e7185506755ce8ff9c4411c98b400d2cc497/classes.dex" />
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_6f35e7185506755ce8ff9c4411c98b400d2cc497.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/7aec604217a8b378d56fc48c988754ad1148558b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_2f83b070535e6c871313376bde6f55a26778e53c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/4cda4e0d0161c2c11351fe5339da0c8b7a2d81bf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_e87dad667d7914df2fd2820f70676942201bb42a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_bd180dbb28e78e3ef13a4e306b1fc8530d4ba8dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/6e644d233324dc1420eda99eafdd332fd276cf79/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_a1a87f4c4b6b2b65332c4186e36aa06354f4e315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/65dff2654db0df83d06aad46015768ac15ddd6e4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4882ae79d1b017eb023db1890a8a4fd5c2862795">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_9f67140e48a72df8de5d1c1a5bb6d53c6c761bce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/c915505e583715c70aef0b5dd5c791339bf0d0dc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_f37dad284fa77fdab3170e4bcca9bd569a08f4d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/7a81444ebaeaec9cce2ae712442a4742daa2c9e9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_6f8819bc2f8d9617c7295b516b50af2373872380.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_e4ffcf8b1fd6365a5f73b656ead879e197f9c4b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_fd9ac6a7a2c0a21efb7a2edf7cb33d6af7473009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/md.tanvirsaad/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/glide-3.7.0_957d5dfd0c6778f7baec4d04e02b0cef2246af77.jar" />
     </item>
 
 </items>

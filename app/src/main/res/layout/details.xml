@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:background="#f1f5f8"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context="info.androidhive.materialdesign.activity.FriendsFragment">
 
 
@@ -534,29 +535,38 @@
 
         <LinearLayout
             android:id="@+id/bottom"
-            style="@android:style/ButtonBar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:orientation="horizontal"
             android:weightSum="1"
+            android:gravity="center"
+            android:layout_gravity="center"
             >
 
-            <LinearLayout
+            <Button
                 android:id="@+id/saveButton"
                 android:layout_width="0dp"
+                android:orientation="vertical"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_height="fill_parent"
                 android:layout_weight=".4" />
 
-            <LinearLayout
+            <Button
                 android:id="@+id/cancelButton"
                 android:orientation="vertical"
+                android:drawableLeft="@drawable/bags"
+                android:textSize="12dp"
                 android:layout_width="0dp"
                 android:text="ADD TO BAG"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textColor="@color/white"
-                android:background="@color/color_menucolour11"
+                android:background="@color/color_button_green"
                 android:layout_height="wrap_content"
+                android:drawablePadding="-40dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="50dp"
                 android:layout_weight=".6"
                 android:theme="@style/MyButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
