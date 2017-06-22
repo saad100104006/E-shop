@@ -19,10 +19,16 @@
             <ImageView
                 android:id="@+id/thumbnail"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="280dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"
-                android:scaleType="fitXY" />
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"
+
+                />
 
             <TextView
                 android:id="@+id/title"
@@ -31,46 +37,81 @@
                 android:layout_below="@id/thumbnail"
                 android:paddingLeft="@dimen/album_title_padding"
                 android:paddingRight="@dimen/album_title_padding"
-                android:paddingTop="@dimen/album_title_padding"
-                android:text="Adidsadasdas"
+                android:text="GERUA"
                 android:textColor="@color/album_title"
-                android:textSize="@dimen/album_title" />
+                android:textSize="12dp" />
 
             <TextView
                 android:id="@+id/title2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/title"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
                 android:paddingLeft="@dimen/album_title_padding"
                 android:paddingRight="@dimen/album_title_padding"
                 android:paddingTop="@dimen/album_title_padding"
-                android:text="Adidadsaas"
-                android:textColor="@color/album_title"
-                android:textSize="@dimen/album_title" />
+                android:text="Unisex Backpack"
+                android:textColor="#9b9e9e"
+                android:textSize="10dp" />
 
             <TextView
                 android:id="@+id/count"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="@dimen/songs_count_padding_bottom"
                 android:paddingLeft="@dimen/album_title_padding"
-                android:paddingRight="@dimen/album_title_padding"
-                android:text="asgdvahsgjdv"
-                android:textSize="@dimen/songs_count"
+                android:paddingRight="5dp"
+                android:text="$1000"
+                android:textColor="@color/colorBlack"
+                android:textSize="12dp"
+                android:textStyle="bold"
                 android:layout_below="@+id/title"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
+            <TextView
+                android:id="@+id/count2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_toRightOf="@+id/count"
+                android:gravity="left"
+                android:paddingTop="2dp"
+              
+                android:text="@string/strike_line"
+                android:textSize="11dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/count3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/title"
+                android:layout_toRightOf="@+id/count2"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:text="30% off"
+                android:paddingTop="2dp"
+                android:textColor="@color/accent"
+                android:textSize="10dp"
+
+                />
+
             <ImageButton
                 android:id="@+id/fav"
-                android:layout_width="12dp"
-                android:layout_height="14dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                android:background="@drawable/favourite_red"
-                android:layout_below="@+id/thumbnail"
+                android:layout_width="14dp"
+                android:layout_height="16dp"
                 android:layout_alignParentRight="true"
-                />
+                android:layout_below="@+id/thumbnail"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/favourite_red" />
 
 
         </RelativeLayout>

@@ -29,6 +29,15 @@
         <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_e87dad667d7914df2fd2820f70676942201bb42a.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/E-shop/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_44ccf9d29675906eb4055dad974443da198883d7/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/md.tanvirsaad/.android/build-cache/4e97f0a82c402c37f827457ec0b469e1f31fb35d/output/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="false"
@@ -63,6 +72,15 @@
         revision="25.0.0"
         sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
         <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/pre-dexed/debug/classes_f37dad284fa77fdab3170e4bcca9bd569a08f4d9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/md.tanvirsaad/E-shop/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="87ca74f8a7eb23f97d67183844c342d7be3c093f">
+        <dex dex="/Users/md.tanvirsaad/E-shop/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f0d131355cd408db865d6945d9bd2777234ade8e/classes.dex" />
     </item>
     <item
         is-multidex="false"

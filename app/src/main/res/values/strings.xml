@@ -92,6 +92,9 @@
     <string name="backdrop_title">LOVE MUSIC</string>
     <string name="backdrop_subtitle">This season top 20 albums</string>
 
+
+    <string name="strike_line"> <strike>$1000 </strike> </string>
+
 </resources>
 
 

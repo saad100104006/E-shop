@@ -508,24 +508,48 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/bottomw2"
-                    style="@android:style/ButtonBar"
+                    android:id="@+id/bottom"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    >
 
                     <Button
-                        android:id="@+id/saveButton2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
+                        android:id="@+id/saveButton1"
+                        android:layout_width="0dp"
+                        android:text="SAVE"
+                        android:textColor="@color/white"
+                        android:drawableLeft="@drawable/save"
+                        android:textSize="12dp"
+                        android:drawablePadding="-40dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="40dp"
+                        android:background="#7E818B"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_height="fill_parent"
+                        android:layout_weight=".4" />
 
                     <Button
-                        android:id="@+id/cancelButton2"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/cancelButton"
+                        android:orientation="vertical"
+                        android:drawableLeft="@drawable/bags"
+                        android:textSize="12dp"
+                        android:layout_width="0dp"
+                        android:text="ADD TO BAG"
+                        android:textColor="@color/white"
+                        android:background="@color/color_button_green"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1" />
+                        android:drawablePadding="-40dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="60dp"
+                        android:layout_weight=".6"
+                        android:theme="@style/MyButton"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        />
                 </LinearLayout>
 
             </LinearLayout>
@@ -534,7 +558,7 @@
 
 
         <LinearLayout
-            android:id="@+id/bottom"
+            android:id="@+id/bottom2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -547,26 +571,31 @@
             <Button
                 android:id="@+id/saveButton"
                 android:layout_width="0dp"
-                android:orientation="vertical"
+                android:text="SAVE"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/save"
+                android:textSize="12dp"
+                android:drawablePadding="-40dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"
+                android:background="#7E818B"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_height="fill_parent"
                 android:layout_weight=".4" />
 
             <Button
-                android:id="@+id/cancelButton"
+                android:id="@+id/cancelButton2"
                 android:orientation="vertical"
                 android:drawableLeft="@drawable/bags"
                 android:textSize="12dp"
                 android:layout_width="0dp"
                 android:text="ADD TO BAG"
-                android:layout_gravity="center"
-                android:gravity="center"
                 android:textColor="@color/white"
                 android:background="@color/color_button_green"
                 android:layout_height="wrap_content"
                 android:drawablePadding="-40dp"
                 android:paddingTop="5dp"
-                android:paddingLeft="50dp"
+                android:paddingLeft="60dp"
                 android:layout_weight=".6"
                 android:theme="@style/MyButton"
                 style="@style/Widget.AppCompat.Button.Borderless"

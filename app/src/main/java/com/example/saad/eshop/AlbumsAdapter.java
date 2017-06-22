@@ -2,6 +2,7 @@ package com.example.saad.eshop;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Paint;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -35,7 +36,7 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
         public MyViewHolder(View view) {
             super(view);
             title = (TextView) view.findViewById(R.id.title);
-            count = (TextView) view.findViewById(R.id.count);
+            count = (TextView) view.findViewById(R.id.count2);
             thumbnail = (ImageView) view.findViewById(R.id.thumbnail);
             favourite=(ImageButton) view.findViewById(R.id.fav);
           //  overflow = (ImageView) view.findViewById(R.id.overflow);
@@ -56,10 +57,16 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
         return new MyViewHolder(itemView);
     }
 
+    private void strikeThroughText(TextView price){
+        price.setPaintFlags(price.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+    }
+
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
         Album album = albumList.get(position);
         holder.title.setText(album.getName());
+
+        strikeThroughText(holder.count);
         holder.count.setText(album.getNumOfSongs() + " songs");
 
         // loading album cover using Glide library
@@ -74,6 +81,9 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
 
             }
         });
+
+
+
 
        holder.favourite.setOnClickListener(new View.OnClickListener() {
             @Override
